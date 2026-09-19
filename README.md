@@ -18,6 +18,17 @@ While traditional networks (Ethereum, Base, Solana) suffer from multi-block reor
 
 ---
 
+---
+
+## 🎬 3-Minute Executive Video Walkthrough
+
+Watch the architectural walkthrough, 16-txn atomic DvP breakdown, and confirmed MainNet settlement:
+- **Direct Video Stream (MP4)**: [Ashlar-Blue-Algorand-Executive-Demo.mp4](https://raw.githubusercontent.com/whawk46/x402-algorand/main/assets/Ashlar-Blue-Algorand-Executive-Demo.mp4)
+- **Confirmed MainNet Settlement**: [`TZEJXAJH7TQ3XLESNR2QGJR3Z7ODWU3NB4N3IHAJ3Y7M6A5NWKRA`](https://explorer.perawallet.app/tx/TZEJXAJH7TQ3XLESNR2QGJR3Z7ODWU3NB4N3IHAJ3Y7M6A5NWKRA) (Round #65179852, 0.01 USDCa via GoPlausible Facilitator)
+- **Electric Capital Indexing**: [PR #3002 (open-dev-data)](https://github.com/electric-capital/open-dev-data/pull/3002)
+
+---
+
 ## 📦 Installation
 
 ```bash
