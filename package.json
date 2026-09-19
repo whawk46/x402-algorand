@@ -1,6 +1,6 @@
 {
   "name": "@ashlar-blue/x402-algorand",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Production HTTP 402 Machine-to-Machine (M2M) clearing and settlement adapter for Algorand Consensus V2. Zero dependencies, deterministic sub-3s finality, native ASA/ALGO clearing, and cryptographic note-field receipts.",
   "keywords": [
     "x402",
