@@ -1,0 +1,48 @@
+{
+  "name": "@ashlar-blue/x402-algorand",
+  "version": "0.6.0",
+  "description": "Production HTTP 402 Machine-to-Machine (M2M) clearing and settlement adapter for Algorand Consensus V2. Zero dependencies, deterministic sub-3s finality, native ASA/ALGO clearing, and cryptographic note-field receipts.",
+  "keywords": [
+    "x402",
+    "algorand",
+    "m2m",
+    "payments",
+    "settlement",
+    "clearing",
+    "usdc",
+    "asa",
+    "micropayments",
+    "ai-agents",
+    "http-402"
+  ],
+  "author": "Corrente Labs, Inc. <contact@correntelabs.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run tests/settlement-adapter.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.0"
+  }
+}
